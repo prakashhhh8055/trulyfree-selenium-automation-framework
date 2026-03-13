@@ -1,0 +1,54 @@
+20:37:47.850 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:37:47.870 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:44:58.455 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:44:58.494 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:44:58.745 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:44:58.762 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:45:23.667 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:45:23.714 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:45:23.978 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:45:23.993 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:48:07.818 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:48:07.850 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:48:08.093 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:48:08.107 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:50:40.867 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:50:40.904 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:50:41.140 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:50:41.155 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:54:32.002 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:54:32.042 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:54:32.295 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:54:32.309 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:58:17.322 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:58:17.357 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:58:17.591 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:58:17.603 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+20:59:37.618 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+20:59:37.662 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+20:59:37.933 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+20:59:37.945 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:02:25.565 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+21:02:25.604 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
+21:02:25.840 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+21:02:25.852 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+21:07:43.304 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+21:07:43.340 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Launching browser: chrome
