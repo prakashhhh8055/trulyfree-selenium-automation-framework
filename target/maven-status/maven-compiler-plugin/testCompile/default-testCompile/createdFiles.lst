@@ -1,0 +1,17 @@
+testCases\baseClass.class
+testCases\LoginAndLogoutTest.class
+pageObjects\HomePage.class
+testCases\TC002_AccountRegistrationTest.class
+utilities\ExcelUtility.class
+components\HeaderComponent.class
+components\LoginPopup.class
+components\OTPVerificationPopup.class
+testCases\TC004_LoginViaEmailAndPasswordDDTTest.class
+components\SignupPopup.class
+pageObjects\BasePage.class
+testCases\TC001_LoginTest.class
+utilities\ExtentReportManager.class
+utilities\DataProviders.class
+components\CompleteProfileViaPhoneNum.class
+components\LogInViaEmailPopup.class
+testCases\TC003_LoginViaEmailAndPwd.class

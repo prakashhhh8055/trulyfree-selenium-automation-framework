@@ -1,0 +1,17 @@
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\components\CompleteProfileViaPhoneNum.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\components\HeaderComponent.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\components\LoginPopup.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\components\LogInViaEmailPopup.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\components\OTPVerificationPopup.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\components\SignupPopup.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\pageObjects\BasePage.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\pageObjects\HomePage.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\testCases\baseClass.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\testCases\LoginAndLogoutTest.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\testCases\TC001_LoginTest.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\testCases\TC002_AccountRegistrationTest.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\testCases\TC003_LoginViaEmailAndPwd.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\testCases\TC004_LoginViaEmailAndPasswordDDTTest.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\utilities\DataProviders.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\utilities\ExcelUtility.java
+C:\Users\Prakash\eclipse-workspace\trulyfreeV1\src\test\java\utilities\ExtentReportManager.java

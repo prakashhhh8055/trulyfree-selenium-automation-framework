@@ -20,6 +20,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC001_LoginTest -->
+      <class name="testCases.TC003_LoginViaEmailAndPwd">
+        <methods>
+          <include name="verifyLoginWithEmailAndPassword"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC003_LoginViaEmailAndPwd -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Grouping Suite] -->

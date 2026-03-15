@@ -1,0 +1,47 @@
+20:36:07.243 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+20:36:07.452 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+20:36:07.654 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
+20:36:07.751 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+20:36:07.797 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+20:36:07.881 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+20:36:09.125 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+20:36:09.149 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+20:36:09.149 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+20:36:10.465 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
+20:36:10.841 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
+20:36:11.562 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - Launching browser: firefox
+20:36:11.612 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+20:36:12.066 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+20:36:12.181 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+20:36:12.270 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+20:36:13.526 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+20:36:13.582 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+20:36:13.582 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+20:36:16.016 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
+20:36:16.139 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
+20:36:16.810 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
+20:36:16.905 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
+20:36:18.172 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
+20:36:18.227 [TestNG-tests-2] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:34:31.298 [main] INFO  testCases.TC001_LoginTest - Launching browser: chrome
+17:34:32.526 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+17:34:32.554 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+17:34:39.818 [main] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
+17:34:39.916 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
+17:34:40.640 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
+17:34:40.752 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
+17:34:42.424 [main] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
+17:34:42.478 [main] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:34:42.651 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
+17:34:42.666 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+17:34:42.682 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+17:34:48.324 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
+17:34:48.415 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
+17:34:49.205 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+17:34:49.622 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+17:34:49.688 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+17:34:49.738 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+17:34:52.401 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+17:34:52.417 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+17:34:52.417 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+17:51:33.857 [main] INFO  testCases.TC001_LoginTest - Launching browser: chrome

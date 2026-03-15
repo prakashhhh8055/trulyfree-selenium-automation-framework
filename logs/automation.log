@@ -1,32 +1,41 @@
-15:47:07.156 [main] INFO  testCases.TC001_LoginTest - Launching browser: chrome
-15:47:07.471 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:47:07.494 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:47:13.192 [main] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
-15:47:14.051 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
-15:47:14.902 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
-15:47:15.054 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
-15:47:25.112 [main] ERROR testCases.TC001_LoginTest - Test Failed
-15:47:27.286 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
-15:47:27.297 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:47:27.303 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:47:32.062 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
-15:47:32.846 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
-15:47:33.705 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
-15:47:34.509 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
-15:47:34.721 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
-15:47:34.901 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
-15:47:37.287 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
-15:47:37.320 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
-15:47:37.321 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
-15:53:36.777 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\test-output\testng-failed.xml
-
-15:53:36.995 [main] INFO  testCases.TC001_LoginTest - Launching browser: chrome
-15:53:37.351 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-15:53:37.376 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-15:53:43.523 [main] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
-15:53:44.467 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
-15:53:45.546 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
-15:53:45.615 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
-15:53:47.223 [main] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
-15:53:47.826 [main] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:51:34.108 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+17:51:34.134 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+17:51:39.041 [main] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
+17:51:39.436 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
+17:51:40.170 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
+17:51:40.258 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
+17:51:41.865 [main] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
+17:51:41.911 [main] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:51:42.101 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
+17:51:42.112 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+17:51:42.123 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+17:51:46.972 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
+17:51:47.475 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
+17:51:48.207 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+17:51:48.646 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+17:51:48.745 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+17:51:48.806 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+17:51:51.411 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+17:51:51.431 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+17:51:51.431 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+17:55:48.633 [main] INFO  testCases.TC001_LoginTest - Launching browser: chrome
+17:55:48.886 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+17:55:48.902 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+17:55:54.381 [main] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
+17:55:54.759 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
+17:55:55.483 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
+17:55:55.557 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
+17:55:57.125 [main] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
+17:55:57.171 [main] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:55:57.349 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
+17:55:57.360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+17:55:57.367 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+17:56:02.867 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
+17:56:02.954 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
+17:56:05.764 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+17:56:06.628 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+17:56:06.717 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+17:56:06.819 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+17:56:08.584 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+17:56:08.612 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+17:56:08.612 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
