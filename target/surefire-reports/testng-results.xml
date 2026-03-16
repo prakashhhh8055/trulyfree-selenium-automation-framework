@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-15T17:55:48 IST" name="Suite" finished-at="2026-03-15T17:56:08 IST" duration-ms="20294">
+  <suite started-at="2026-03-16T13:54:11 IST" name="Suite" finished-at="2026-03-16T13:54:40 IST" duration-ms="28758">
     <groups>
       <group name="sanity">
         <method signature="TC001_LoginTest.verifyLogin()[pri:0, instance:testCases.TC001_LoginTest@77825085]" name="verifyLogin" class="testCases.TC001_LoginTest"/>
@@ -13,9 +13,9 @@
         <method signature="TC003_LoginViaEmailAndPwd.verifyLoginWithEmailAndPassword()[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" name="verifyLoginWithEmailAndPassword" class="testCases.TC003_LoginViaEmailAndPwd"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2026-03-15T17:55:48 IST" name="ChromeTest" finished-at="2026-03-15T17:56:08 IST" duration-ms="20294">
+    <test started-at="2026-03-16T13:54:11 IST" name="ChromeTest" finished-at="2026-03-16T13:54:40 IST" duration-ms="28758">
       <class name="testCases.TC001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginTest@77825085]" started-at="2026-03-15T17:55:48 IST" name="setup" finished-at="2026-03-15T17:55:54 IST" duration-ms="5741" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginTest@77825085]" started-at="2026-03-16T13:54:11 IST" name="setup" finished-at="2026-03-16T13:54:25 IST" duration-ms="13744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,17 +31,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC001_LoginTest@77825085]" started-at="2026-03-15T17:55:54 IST" name="verifyLogin" finished-at="2026-03-15T17:55:57 IST" duration-ms="2793" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:testCases.TC001_LoginTest@77825085]" started-at="2026-03-16T13:54:25 IST" name="verifyLogin" finished-at="2026-03-16T13:54:29 IST" duration-ms="4003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_LoginTest@77825085]" started-at="2026-03-15T17:55:57 IST" name="tearDown" finished-at="2026-03-15T17:55:57 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_LoginTest@77825085]" started-at="2026-03-16T13:54:29 IST" name="tearDown" finished-at="2026-03-16T13:54:29 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_LoginTest -->
       <class name="testCases.TC003_LoginViaEmailAndPwd">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" started-at="2026-03-15T17:55:57 IST" name="setup" finished-at="2026-03-15T17:56:02 IST" duration-ms="5516" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" started-at="2026-03-16T13:54:29 IST" name="setup" finished-at="2026-03-16T13:54:35 IST" duration-ms="5609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,11 +57,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithEmailAndPassword()[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" started-at="2026-03-15T17:56:02 IST" name="verifyLoginWithEmailAndPassword" finished-at="2026-03-15T17:56:08 IST" duration-ms="5745" status="PASS">
+        <test-method signature="verifyLoginWithEmailAndPassword()[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" started-at="2026-03-16T13:54:35 IST" name="verifyLoginWithEmailAndPassword" finished-at="2026-03-16T13:54:39 IST" duration-ms="4553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithEmailAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" started-at="2026-03-15T17:56:08 IST" name="tearDown" finished-at="2026-03-15T17:56:08 IST" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginViaEmailAndPwd@4b1d6571]" started-at="2026-03-16T13:54:39 IST" name="tearDown" finished-at="2026-03-16T13:54:40 IST" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
