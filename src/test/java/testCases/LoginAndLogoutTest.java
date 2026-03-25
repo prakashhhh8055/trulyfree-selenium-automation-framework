@@ -15,17 +15,17 @@ public class LoginAndLogoutTest extends baseClass
     {
         logger.info("********** Test Started : Verify Login And Logout **********");
 
-        HomePage home = new HomePage(driver);
+        HomePage home = new HomePage(getDriver());
         
         logger.info("Clicking on Login icon");
         home.header.openLogin();
 
-        LoginPopup loginViaPhone = new LoginPopup(driver);
+        LoginPopup loginViaPhone = new LoginPopup(getDriver());
         
         logger.info("Selecting 'Login via Email' option");
         loginViaPhone.clickLogInViaEmail();
 
-        LogInViaEmailPopup loginViaEmail = new LogInViaEmailPopup(driver);
+        LogInViaEmailPopup loginViaEmail = new LogInViaEmailPopup(getDriver());
 
         logger.info("Entering Email");
         loginViaEmail.setEmail(p.getProperty("email"));

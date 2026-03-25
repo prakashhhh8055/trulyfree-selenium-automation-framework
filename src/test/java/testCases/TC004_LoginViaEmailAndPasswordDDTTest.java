@@ -19,17 +19,17 @@ public class TC004_LoginViaEmailAndPasswordDDTTest extends baseClass
 	{
 	    logger.info("********** Test Started : Login DDT **********");
 
-	    HomePage home = new HomePage(driver);
+	    HomePage home = new HomePage(getDriver());
 
 	    logger.info("Clicking Login icon");
 	    home.header.openLogin();
 
-	    LoginPopup loginViaPhone = new LoginPopup(driver);
+	    LoginPopup loginViaPhone = new LoginPopup(getDriver());
 
 	    logger.info("Selecting Login via Email");
 	    loginViaPhone.clickLogInViaEmail();
 
-	    LogInViaEmailPopup loginViaEmail = new LogInViaEmailPopup(driver);
+	    LogInViaEmailPopup loginViaEmail = new LogInViaEmailPopup(getDriver());
 
 	    logger.info("Entering Email");
 	    loginViaEmail.setEmail(email);
@@ -40,7 +40,7 @@ public class TC004_LoginViaEmailAndPasswordDDTTest extends baseClass
 	    logger.info("Clicking Continue");
 	    loginViaEmail.clickContinue();
 	    
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	    WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
 
 	    boolean actualResult;
 	    
@@ -99,7 +99,7 @@ public class TC004_LoginViaEmailAndPasswordDDTTest extends baseClass
 	    }
 
 	    logger.info("Resetting application state for next iteration");
-	    driver.navigate().refresh();
+	    getDriver().navigate().refresh();
 
 	    logger.info("********** Test Completed **********");
 	}

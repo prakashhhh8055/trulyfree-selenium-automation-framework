@@ -2,6 +2,8 @@ package components;
 
 import java.time.Duration;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HeaderComponent {
 
 	WebDriver driver;
+	WebDriverWait wait;
 
 	public HeaderComponent(WebDriver driver) 
 	{
@@ -25,6 +28,7 @@ public class HeaderComponent {
 	@FindBy(xpath="//span[@class='jsx-66837041 profile__text']") WebElement profile_txt;
 	@FindBy(xpath="//p[contains(text(),'Logout')]") WebElement logoutBtn;
 	@FindBy(xpath="//*[text()='My Referrals']") WebElement MyReferrals;
+	@FindBy(xpath="//input[@class='jsx-bcc2e1b3560dc6c7 search_input w-100 md_none']/parent::form") WebElement Search;
 	
 	@FindBy(xpath="//div[@role='dialog']//button[text()='Logout']")  WebElement LogoutConfirm;
 	
@@ -38,11 +42,26 @@ public class HeaderComponent {
 		Cart.click();
 	}
 	
+	public void performSearch(String searchInput) throws InterruptedException
+	{
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+	    // Wait for search box
+	    wait.until(ExpectedConditions.visibilityOf(Search));
+	    wait.until(ExpectedConditions.elementToBeClickable(Search));
+
+	    Search.click();
+	    Thread.sleep(5000);
+	    
+	    driver.switchTo().activeElement().sendKeys(searchInput);
+	    driver.switchTo().activeElement().sendKeys(Keys.ENTER);
+	}
+	
 	public void hoverAndSelectLogout() 
 	{
 		
 		Actions action = new Actions(driver);
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	    // Wait until profile is visible
 	    wait.until(ExpectedConditions.visibilityOf(profile_txt));

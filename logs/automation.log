@@ -1,38 +1,29 @@
-13:48:50.648 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
-13:48:52.062 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
-13:48:52.418 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
-13:48:54.060 [main] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
-13:48:54.336 [main] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
-13:48:54.725 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
-13:48:54.777 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-13:48:54.820 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-13:49:00.685 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
-13:49:01.172 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
-13:49:01.928 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
-13:49:02.382 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
-13:49:02.524 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
-13:49:02.606 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
-13:49:04.067 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
-13:49:04.124 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
-13:49:04.124 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
-13:54:11.407 [main] INFO  testCases.TC001_LoginTest - Launching browser: chrome
-13:54:11.692 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-13:54:11.716 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-13:54:25.183 [main] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
-13:54:25.404 [main] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
-13:54:26.504 [main] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
-13:54:26.626 [main] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
-13:54:28.668 [main] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
-13:54:29.174 [main] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
-13:54:29.533 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
-13:54:29.560 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
-13:54:29.597 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
-13:54:35.143 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
-13:54:35.251 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
-13:54:36.005 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
-13:54:36.409 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
-13:54:36.501 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
-13:54:36.588 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
-13:54:39.670 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
-13:54:39.694 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
-13:54:39.694 [main] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+13:09:33.055 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+13:09:34.195 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+13:09:46.255 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+13:10:26.369 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Completed----
+07:29:21.834 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+07:29:21.907 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win64/chromedriver-win64.zip
+07:29:23.238 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+07:29:23.389 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+07:29:31.067 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+07:29:34.671 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+07:30:15.715 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Completed----
+07:32:07.984 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+07:32:08.001 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+07:32:09.135 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+07:32:12.585 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+07:32:52.736 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Completed----
+07:45:44.049 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+07:45:44.071 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+07:45:45.520 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+07:45:48.951 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+07:46:31.146 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Completed----
+07:46:59.225 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+07:46:59.245 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+07:47:00.390 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+07:47:10.408 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+07:49:19.385 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+07:49:19.406 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+07:49:20.634 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+07:49:23.849 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----

@@ -1,0 +1,49 @@
+17:06:34.826 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+17:06:34.893 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+17:06:34.960 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+17:06:37.636 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+17:06:37.655 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+17:06:37.656 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+17:19:30.825 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\dockertestNg.xml
+
+17:19:31.272 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+17:19:31.288 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+17:19:32.421 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - Launching browser: chrome
+17:19:37.042 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
+17:19:37.320 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
+17:19:38.347 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
+17:19:38.513 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
+17:19:40.173 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
+17:19:40.295 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:19:40.591 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+17:19:40.625 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+17:19:41.547 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
+17:19:47.994 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
+17:19:48.280 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
+17:19:49.543 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+17:19:49.947 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+17:19:50.079 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+17:19:50.189 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+17:19:53.755 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message
+17:19:53.787 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Login successful : Logged in successfully as Salman !
+17:19:53.787 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Completed Successfully ===
+17:20:49.398 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\dockertestNg.xml
+
+17:20:50.702 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - Launching browser: chrome
+17:20:51.818 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: firefox
+17:20:54.710 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Starting TC001_Login Via Phone Number*******
+17:20:54.865 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Clicked and Opened the Login Popup*******
+17:20:55.682 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Entered the Phone Number*******
+17:20:55.781 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Clicked on Continue Button*******
+17:20:56.204 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - === Test Started : Login Via Email ===
+17:20:56.332 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Login popup opened
+17:20:57.025 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Login via Email
+17:20:57.346 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******OTP Verification POPUP Opened*******
+17:20:57.382 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Email
+17:20:57.453 [TestNG-tests-1] INFO  testCases.TC001_LoginTest - *******Finished TC001 Completed Logged In Sucessfully*******
+17:20:57.460 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Entered Password
+17:20:57.573 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Clicked Continue button
+17:20:57.935 [TestNG-tests-1] INFO  testCases.TC003_LoginViaEmailAndPwd - Launching browser: chrome
+17:20:59.922 [TestNG-tests-2] INFO  testCases.TC003_LoginViaEmailAndPwd - Checking confirmation message

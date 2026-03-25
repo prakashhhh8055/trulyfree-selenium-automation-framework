@@ -16,16 +16,16 @@ public class TC002_AccountRegistrationTest extends baseClass
 	public void verifyAccountRegistration() throws InterruptedException
 	{
 		logger.info("---Account Registration Test Case Started----");
-		HomePage home=new HomePage(driver);
+		HomePage home=new HomePage(getDriver());
 		home.header.openLogin();
-		LoginPopup login=new LoginPopup(driver);
+		LoginPopup login=new LoginPopup(getDriver());
 		login.clickCreateAccount();
-		SignupPopup signup=new SignupPopup(driver);
+		SignupPopup signup=new SignupPopup(getDriver());
 		signup.SwitchtoLoginViaEmail();
 		signup.setEmailid(randomString()+"@yopmail.com");
 		signup.setPassword(randomAlphaNumeric());
 		signup.clickContinuebtn();
-		CompleteProfileViaPhoneNum laststep=new CompleteProfileViaPhoneNum(driver);
+		CompleteProfileViaPhoneNum laststep=new CompleteProfileViaPhoneNum(getDriver());
 		laststep.setFirstName(randomString());
 		laststep.setLastName(randomString());
 		laststep.clickCountryCode();
@@ -34,7 +34,7 @@ public class TC002_AccountRegistrationTest extends baseClass
 		laststep.clickCreateAccount();
 		Thread.sleep(10000);
 		logger.info("Resetting application state for next iteration");
-	    driver.navigate().refresh();
+		getDriver().navigate().refresh();
 	    logger.info("Verifying the Profile Info Present and Signup Completed or Not");
 	    Assert.assertTrue(home.header.IsProfileTxtPresent());
 	    logger.info("---Account Registration Test Case Completed----");

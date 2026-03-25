@@ -7,11 +7,14 @@ components\HeaderComponent.class
 components\LoginPopup.class
 components\OTPVerificationPopup.class
 testCases\TC004_LoginViaEmailAndPasswordDDTTest.class
+testCases\TC005_VerifySearch.class
 components\SignupPopup.class
+testCases\TC006_VerifySearchResultPLP.class
 pageObjects\BasePage.class
 testCases\TC001_LoginTest.class
 utilities\ExtentReportManager.class
 utilities\DataProviders.class
 components\CompleteProfileViaPhoneNum.class
 components\LogInViaEmailPopup.class
+pageObjects\PLPpage.class
 testCases\TC003_LoginViaEmailAndPwd.class

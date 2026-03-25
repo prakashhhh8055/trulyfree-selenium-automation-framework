@@ -17,15 +17,15 @@ public class TC001_LoginTest extends baseClass
 		
 		try {
 		logger.info("*******Starting TC001_Login Via Phone Number*******");
-		HomePage home=new HomePage(driver);
+		HomePage home=new HomePage(getDriver());
 		home.header.openLogin();
 		logger.info("*******Clicked and Opened the Login Popup*******");
-		LoginPopup login=new LoginPopup(driver);
+		LoginPopup login=new LoginPopup(getDriver());
 		login.setPhoneNum(p.getProperty("phonenumber"));
 		logger.info("*******Entered the Phone Number*******");
 		login.clickContinue();
 		logger.info("*******Clicked on Continue Button*******");
-		OTPVerificationPopup otp=new OTPVerificationPopup(driver);
+		OTPVerificationPopup otp=new OTPVerificationPopup(getDriver());
 		String confirmationMsg=otp.getconfirmationMsg();
 		if(confirmationMsg.equalsIgnoreCase("Verification code sent to the phone number +1 -202-555-1234"))
 		{

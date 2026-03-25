@@ -1,0 +1,54 @@
+19:22:01.882 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:22:02.253 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:22:02.271 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:22:03.310 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:22:09.681 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:29:22.650 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:29:23.021 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:29:23.037 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:29:24.051 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:29:29.356 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:33:56.303 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:33:56.665 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:33:56.682 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:33:57.777 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:34:06.196 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:37:33.857 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:37:34.224 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:37:34.240 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:37:35.336 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:37:42.883 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:41:33.470 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:41:33.833 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:41:33.850 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:41:35.066 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:41:39.999 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:42:53.808 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:42:54.246 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:42:54.263 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:42:55.314 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:42:59.607 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:43:30.331 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Completed----
+19:44:13.414 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:44:13.964 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.153 (resolved driver for Chrome 146)
+19:44:13.994 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.153\chromedriver.exe
+19:44:15.244 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:44:19.986 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Started----
+19:44:45.459 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006_VerifySearchResultPLP Test case Completed----
+19:46:39.403 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
