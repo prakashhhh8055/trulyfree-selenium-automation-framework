@@ -1,5 +1,8 @@
 package pageObjects;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.Duration;
 import java.util.List;
 
@@ -7,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,6 +19,7 @@ public class PLPpage extends BasePage
 {
 	WebDriverWait wait;
 	JavascriptExecutor js=(JavascriptExecutor) driver;
+	Actions action=new Actions(driver);
 	public PLPpage(WebDriver driver) 
 	{
 		super(driver);
@@ -31,6 +36,10 @@ public class PLPpage extends BasePage
 	@FindBy(xpath="//p[contains(@class,'productui__brand_name')]") List<WebElement> BrandNames;
 	@FindBy(xpath="(//li[contains(@class,'ais-RefinementList-item--selected')]//span[@class='ais-RefinementList-count'])[2]") WebElement SelectedFilterCount;
 	@FindBy(xpath="//div[@class='CurrentRefinements d-none d-md-block']//button[@class='ais-ClearRefinements-button']") WebElement ClearFilterBtn;
+	@FindBy(xpath="(//div[@role='slider'])[3]") WebElement minSlider;
+	@FindBy(xpath="(//div[@role='slider'])[4]") WebElement maxSlider;
+	@FindBy(xpath="//input[@class='ais-ToggleRefinement-checkbox']") WebElement FreeShippingFeeToggle;
+	
 	
 	
 	public void ClearFilter()
@@ -172,6 +181,86 @@ public class PLPpage extends BasePage
 	    }
 
 	    return currentCount;
+	}
+	
+	public int verifyBrokenLinks() throws IOException
+	{
+		  int brokenLinksCount = 0;
+		  int validLinksCount = 0;
+		
+		if (productLinks == null || productLinks.isEmpty()) 
+		{
+            System.out.println("No links found to validate.");
+            return 0;
+        }
+		
+		for(WebElement link:productLinks)
+		{	
+			String hrefAttributeValue=link.getAttribute("href");
+			
+			if (hrefAttributeValue == null || hrefAttributeValue.isEmpty())
+			{	
+	            System.out.println("No links found to validate.");
+	            continue;
+	        }
+			
+			URL url=new URL(hrefAttributeValue);
+			HttpURLConnection connection=(HttpURLConnection) url.openConnection();
+			connection.setConnectTimeout(5000); // timeout
+			connection.connect();
+			
+			int responseCode = connection.getResponseCode();
+			
+			if(responseCode>400)
+			{
+				System.out.println("❌ Broken Link: "+url+" "+responseCode);
+				brokenLinksCount++;
+			}
+			else
+			{
+				System.out.println("✅ Valid Link: "+url);
+				validLinksCount++;
+				
+			}
+			
+			
+			
+			
+		}
+		
+		System.out.println("Total Links: " + productLinks.size());
+	    System.out.println("Valid Links: " + validLinksCount);
+	    System.out.println("Broken Links: " + brokenLinksCount);
+
+	    return brokenLinksCount;   // 🔥 IMPORTANT
+	}
+	
+	
+	public void applyPriceSlider() throws InterruptedException
+	{
+		js.executeScript("arguments[0].scrollIntoView({block:'center'})",minSlider);
+		action.clickAndHold(minSlider).moveByOffset(50,0).perform();
+		System.out.println("Applied min Slider");
+		Thread.sleep(5000);
+		action.clickAndHold(maxSlider).moveByOffset(-50,0).perform();
+		System.out.println("Applied max Slide");
+		
+	}
+	
+	public void enableFreeShippingFeeToggle() throws InterruptedException
+	{
+		js.executeScript("window.scrollTo(0,0);");
+		wait.until(ExpectedConditions.visibilityOf(FreeShippingFeeToggle));
+		js.executeScript("arguments[0].scrollIntoView({block:'center'})",FreeShippingFeeToggle);
+		if(!FreeShippingFeeToggle.isSelected())
+		{
+			js.executeScript("arguments[0].click()",FreeShippingFeeToggle);
+		}
+		else
+		{
+			System.out.println("FreeShippingFeeToggle is already selected");
+		}
+		js.executeScript("window.scrollTo(0,0);");
 	}
 
 }

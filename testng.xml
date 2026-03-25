@@ -11,7 +11,10 @@
       <!-- <class name="testCases.TC002_AccountRegistrationTest"/>  -->
       <!--<class name="testCases.TC001_LoginTest"/>-->
       <!-- <class name="testCases.TC005_VerifySearch"/> -->
-      <class name="testCases.TC006_VerifySearchResultPLP"></class>
+      <!--<class name="testCases.TC006_VerifySearchResultPLP"></class>-->
+      <!--<class name="testCases.TC007_VerifyBrokenLinksFromPLP"/>-->
+      <!--<class name="testCases.TC008_VerifyPLPByApplyingPriceFilter"/>-->
+      <class name="testCases.TC009_VerifyPLPFreeShippingFeeFilter"/>
       <!--<class name="testCases.LoginAndLogoutTest"/>-->
       <!--<class name="testCases.TC004_LoginViaEmailAndPasswordDDTTest"/> -->
     </classes>

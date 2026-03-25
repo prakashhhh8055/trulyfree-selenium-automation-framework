@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC006_VerifySearchResultPLP">
+      <class name="testCases.TC009_VerifyPLPFreeShippingFeeFilter">
         <methods>
-          <include name="VerifySearchResultPLP"/>
           <include name="tearDown"/>
+          <include name="VerifyPLPFreeShippingFeeFilter"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC006_VerifySearchResultPLP -->
+      </class> <!-- testCases.TC009_VerifyPLPFreeShippingFeeFilter -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

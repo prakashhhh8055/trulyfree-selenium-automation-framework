@@ -15,7 +15,7 @@ public class TC006_VerifySearchResultPLP extends baseClass
 	SoftAssert sa = new SoftAssert();
 	public void VerifySearchResultPLP() throws InterruptedException
 	{
-		logger.info("---TC006_VerifySearchResultPLP Test case Started----");
+		logger.info("---TC006 Test case Started----");
 		HomePage home=new HomePage(getDriver());
 		home.header.performSearch(p.getProperty("searchKeyword"));
 		PLPpage PLP=new PLPpage(getDriver());
@@ -40,7 +40,7 @@ public class TC006_VerifySearchResultPLP extends baseClass
 		Thread.sleep(2000);
 		sa.assertAll();
 		
-		logger.info("---TC006_VerifySearchResultPLP Test case Completed----");
+		logger.info("---TC006 Test case Completed----");
 		
 	}
 	
