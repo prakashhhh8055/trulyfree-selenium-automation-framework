@@ -14,6 +14,6 @@ public class PDPpage extends BasePage {
 	
 	@FindBy(xpath="//div[contains(@class,'fast_free_shipping_lbl ')]//span[contains(@class,'free_shipping_text')]" ) WebElement freeShippingLabel;
 	@FindBy(xpath="//button[@id='add-to-cart-button']" ) WebElement addToCartBtn;
-	
+	@FindBy(xpath="//p[@data-testid='product-name']") WebElement productTitle;
 
 }
