@@ -22,14 +22,10 @@ public class TC004_LoginViaEmailAndPasswordDDTTest extends baseClass
 	    HomePage home = new HomePage(getDriver());
 
 	    logger.info("Clicking Login icon");
-	    home.header.openLogin();
-
-	    LoginPopup loginViaPhone = new LoginPopup(getDriver());
+	    LoginPopup loginViaPhone = home.header.openLogin();
 
 	    logger.info("Selecting Login via Email");
-	    loginViaPhone.clickLogInViaEmail();
-
-	    LogInViaEmailPopup loginViaEmail = new LogInViaEmailPopup(getDriver());
+	    LogInViaEmailPopup loginViaEmail = loginViaPhone.clickLogInViaEmail();
 
 	    logger.info("Entering Email");
 	    loginViaEmail.setEmail(email);

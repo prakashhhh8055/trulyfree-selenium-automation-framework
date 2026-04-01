@@ -4,17 +4,21 @@
 <Properties>
 	<Property name="basePath">./logs</Property>
 </Properties>
+
     <Appenders>
+    
         <Console name="LogToConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
+        
         <RollingFile name="LogToRollingFile" fileName="${basePath}/automation.log"
                     filePattern="${basePath}/automation-%d{MM-dd-yyyy}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <SizeBasedTriggeringPolicy size="5000"/>
-    </RollingFile>
-
+    	</RollingFile>
+    	
     </Appenders>
+    
     <Loggers>
     
     	<!-- Disable noisy logs -->
@@ -25,4 +29,5 @@
             <AppenderRef ref="LogToConsole"/>
         </Root>
     </Loggers>
+    
 </Configuration>

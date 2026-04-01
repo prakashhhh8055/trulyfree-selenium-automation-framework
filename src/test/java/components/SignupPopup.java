@@ -54,9 +54,10 @@ public class SignupPopup {
 		pwdInput.sendKeys(pwd);
 	}
 	
-	public void clickContinuebtn()
+	public CompleteProfileViaPhoneNum clickContinuebtn()
 	{
 		continueBtnForSignUpViaEmail.click();
+		return new CompleteProfileViaPhoneNum(driver);
 	}
 	
 

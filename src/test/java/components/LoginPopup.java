@@ -26,9 +26,10 @@ public class LoginPopup {
 		phoneNumInput.sendKeys(phoneNum);
 	}
 	
-	public void clickContinue()
+	public OTPVerificationPopup clickContinue()
 	{
 		continueBtn.click();
+		return new OTPVerificationPopup(driver);
 	}
 	
 	public SignupPopup clickCreateAccount()

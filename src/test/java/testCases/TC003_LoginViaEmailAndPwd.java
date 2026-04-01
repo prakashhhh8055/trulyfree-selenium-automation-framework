@@ -19,27 +19,24 @@ public class TC003_LoginViaEmailAndPwd extends baseClass
 	        logger.info("Login popup opened");
 
 	        LoginPopup loginViaPhone = new LoginPopup(getDriver());
-	        loginViaPhone.clickLogInViaEmail();
+	        LogInViaEmailPopup loginViaEmail = loginViaPhone.clickLogInViaEmail();
+	        
 	        logger.info("Clicked Login via Email");
-
-	        LogInViaEmailPopup loginViaEmail = new LogInViaEmailPopup(getDriver());
-
 	        loginViaEmail.setEmail(p.getProperty("email"));
+	        
 	        logger.info("Entered Email");
-
 	        loginViaEmail.setPassword(p.getProperty("password"));
+	        
 	        logger.info("Entered Password");
-
 	        loginViaEmail.clickContinue();
+	        
 	        logger.info("Clicked Continue button");
-
 	        boolean status = loginViaEmail.confirmationMsgDisplayed();
 
 	        logger.info("Checking confirmation message");
-
 	        if(status)
 	        {
-	            logger.info("Login successful : " + loginViaEmail.getconfirmationMsg());
+	            logger.info("Login successful : " +loginViaEmail.getconfirmationMsg());
 	            logger.info("=== Test Completed Successfully ===");
 	            Assert.assertTrue(true);
 	        }

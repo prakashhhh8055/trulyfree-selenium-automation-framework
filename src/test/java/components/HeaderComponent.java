@@ -12,6 +12,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.PLPpage;
+
 public class HeaderComponent {
 
 	WebDriver driver;
@@ -32,9 +34,10 @@ public class HeaderComponent {
 	
 	@FindBy(xpath="//div[@role='dialog']//button[text()='Logout']")  WebElement LogoutConfirm;
 	
-	public void openLogin()
+	public LoginPopup openLogin()
 	{
 		Login.click();
+		return new LoginPopup(driver);
 	}
 	
 	public void openCart()
@@ -42,7 +45,7 @@ public class HeaderComponent {
 		Cart.click();
 	}
 	
-	public void performSearch(String searchInput) throws InterruptedException
+	public PLPpage performSearch(String searchInput) throws InterruptedException
 	{
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
@@ -55,6 +58,7 @@ public class HeaderComponent {
 	    
 	    driver.switchTo().activeElement().sendKeys(searchInput);
 	    driver.switchTo().activeElement().sendKeys(Keys.ENTER);
+	    return new PLPpage(driver);
 	}
 	
 	public void hoverAndSelectLogout() 

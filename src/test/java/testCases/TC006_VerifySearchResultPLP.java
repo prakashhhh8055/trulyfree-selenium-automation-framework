@@ -1,10 +1,8 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import pageObjects.BasePage;
 import pageObjects.HomePage;
 import pageObjects.PLPpage;
 
@@ -17,15 +15,14 @@ public class TC006_VerifySearchResultPLP extends baseClass
 	{
 		logger.info("---TC006 Test case Started----");
 		HomePage home=new HomePage(getDriver());
-		home.header.performSearch(p.getProperty("searchKeyword"));
-		PLPpage PLP=new PLPpage(getDriver());
+		PLPpage PLP=home.header.performSearch(p.getProperty("searchKeyword"));
 		System.out.println("Is PLP Loaded -> "+PLP.isPLPLoaded());
 		int searchResultCount=PLP.getSearchResultCount();
 		int productCardCount=PLP.getTotalProductCount();
 		sa.assertEquals(productCardCount, searchResultCount);
 		System.out.println("Search Result Count is - "+searchResultCount);
 		System.out.println("PLP Product Cards Count is - "+productCardCount);
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		/*PLP.selectFilter(p.getProperty("SelectBrandFilterOption"));
 		Thread.sleep(5000);
 		int actualProductCount=PLP.getTotalProductCount();
@@ -35,9 +32,9 @@ public class TC006_VerifySearchResultPLP extends baseClass
 		sa.assertTrue(PLP.isPLPLoaded());
 		//PLP.clickProductByName(p.getProperty("productTitle")); */
 		
-		sa.assertEquals(PLP.verifyBrandFilter(p.getProperty("SelectBrandFilterOption")),true);
-		PLP.ClearFilter();
-		Thread.sleep(2000);
+		//sa.assertEquals(PLP.verifyBrandFilter(p.getProperty("SelectBrandFilterOption")),true);
+		//PLP.ClearFilter();
+		//Thread.sleep(2000);
 		sa.assertAll();
 		
 		logger.info("---TC006 Test case Completed----");

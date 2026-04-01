@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LogInViaEmailPopup {
-	
+public class LogInViaEmailPopup 
+{
 	
 	
 	WebDriver driver;
@@ -17,12 +17,18 @@ public class LogInViaEmailPopup {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//input[@id='standard-email']") WebElement emailID; 
-	@FindBy(xpath="//input[@id='standard-password']") WebElement pwd;
-	@FindBy(xpath="//button[text()='CONTINUE']") WebElement continueBtn;
-	@FindBy(xpath="//span[@id='client-snackbar']") WebElement confirmMsg;
-	@FindBy(xpath="//div[contains(@class,'cursor-pointer')]//*[name()='svg']") WebElement crossIcon;
+		@FindBy(xpath="//input[@id='standard-email']") WebElement emailID; 
+		@FindBy(xpath="//input[@id='standard-password']") WebElement pwd;
+		@FindBy(xpath="//button[text()='CONTINUE']") WebElement continueBtn;
+		@FindBy(xpath="//span[@id='client-snackbar']") WebElement confirmMsg;
+		@FindBy(xpath="//div[contains(@class,'cursor-pointer')]//*[name()='svg']") WebElement crossIcon;
+		@FindBy(xpath="//button[normalize-space()='Create Account']") WebElement CreateAccount;
 	
+		public SignupPopup clickCreateAccount()
+		{
+			CreateAccount.click();
+			return new SignupPopup(driver);
+		}
 	
 	public void setEmail(String email)
 	{

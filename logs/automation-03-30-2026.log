@@ -1,0 +1,50 @@
+19:40:38.728 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Resetting application state for next iteration
+19:40:40.639 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Completed **********
+19:40:40.641 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Started : Login DDT **********
+19:40:40.642 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Clicking Login icon
+19:40:40.741 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Selecting Login via Email
+19:40:40.884 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Entering Email
+19:40:41.008 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Entering Password
+19:40:41.079 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Clicking Continue
+19:40:42.506 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Login successful as expected
+19:40:43.311 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Resetting application state for next iteration
+19:40:45.334 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Completed **********
+19:40:45.358 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Started : Login DDT **********
+19:40:45.358 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Clicking Login icon
+19:40:45.475 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Selecting Login via Email
+19:40:45.968 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Entering Email
+19:40:46.148 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Entering Password
+19:40:46.339 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Clicking Continue
+19:40:56.533 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Login failed as expected
+19:40:56.588 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Login popup closed
+19:40:56.588 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Resetting application state for next iteration
+19:40:57.644 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Completed **********
+19:40:57.646 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Started : Login DDT **********
+19:40:57.647 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Clicking Login icon
+19:40:57.987 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Selecting Login via Email
+19:40:58.554 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Entering Email
+19:40:58.754 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Entering Password
+19:40:58.905 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Clicking Continue
+19:41:00.631 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Login successful as expected
+19:41:01.705 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - Resetting application state for next iteration
+19:41:03.909 [main] INFO  testCases.TC004_LoginViaEmailAndPasswordDDTTest - ********** Test Completed **********
+19:46:13.447 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:46:13.841 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+19:46:13.868 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+19:46:14.948 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:46:19.005 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006 Test case Started----
+19:48:41.425 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:48:41.822 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+19:48:41.843 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+19:48:42.872 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome
+19:48:45.750 [main] INFO  testCases.TC006_VerifySearchResultPLP - ---TC006 Test case Started----
+19:50:11.017 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prakash\eclipse-workspace\trulyfreeV1\testng.xml
+
+19:50:11.385 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+19:50:11.411 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prakash\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+19:50:12.461 [main] INFO  testCases.TC006_VerifySearchResultPLP - Launching browser: chrome

@@ -42,8 +42,8 @@ public class baseClass {
 
     @BeforeClass(groups={"sanity","login","regression","ddt","registration"})
     @Parameters({"os","browser"})
-    public void setup(String os, String browser) throws IOException {
-
+    public void setup(String os, String browser) throws IOException 
+    {
         // Load config.properties
         FileReader file = new FileReader(System.getProperty("user.dir") + "/src/test/resources/config.properties");
         p = new Properties();
