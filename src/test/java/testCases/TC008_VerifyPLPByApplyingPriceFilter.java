@@ -12,8 +12,7 @@ public class TC008_VerifyPLPByApplyingPriceFilter extends baseClass
 	public void VerifyPLPByApplyingPriceFilter() throws InterruptedException
 	{
 		HomePage home=new HomePage(getDriver());
-		home.header.performSearch(p.getProperty("searchKeyword"));
-		PLPpage plp=new PLPpage(getDriver());
+		PLPpage plp=home.header.performSearch(p.getProperty("searchKeyword"));
 		plp.isPLPLoaded();
 		Thread.sleep(5000);
 		plp.applyPriceSlider();

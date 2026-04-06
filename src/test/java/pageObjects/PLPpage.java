@@ -41,6 +41,10 @@ public class PLPpage extends BasePage
 	@FindBy(xpath="//input[@class='ais-ToggleRefinement-checkbox']") WebElement FreeShippingFeeToggle;
 	
 	
+	public String getFirstProductName()
+	{
+		return ProductTitles.get(0).getText();
+	}
 	
 	public void ClearFilter()
 	{
@@ -114,12 +118,13 @@ public class PLPpage extends BasePage
 		
 	}
 	
-	public void clickProductByName(String name) throws InterruptedException
+	public PDPpage clickProductByName(String name) throws InterruptedException
 	{
 		js.executeScript("window.scrollTo(0,0);"); //Resetting Position bcz Make sure we are at the Starting position of the PLP
 		boolean found = false;
 		 for(WebElement ProductName:ProductTitles)
 		 {
+			 waitForVisibility(ProductName);
 			 if(ProductName.getText().equalsIgnoreCase(name))
 			 {
 				 System.out.println("Found the product, clicking on it....!");
@@ -141,6 +146,7 @@ public class PLPpage extends BasePage
 			 System.out.println("Product Name not exist......!");
 		 }
 		 
+		 return new PDPpage(driver);
 		
 	}
 	

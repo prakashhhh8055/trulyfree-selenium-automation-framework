@@ -12,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.CartPage;
 import pageObjects.PLPpage;
 
 public class HeaderComponent {
@@ -40,9 +41,10 @@ public class HeaderComponent {
 		return new LoginPopup(driver);
 	}
 	
-	public void openCart()
+	public CartPage openCart()
 	{
 		Cart.click();
+		return new CartPage(driver);
 	}
 	
 	public PLPpage performSearch(String searchInput) throws InterruptedException

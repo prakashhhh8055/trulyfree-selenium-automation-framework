@@ -18,9 +18,7 @@ public class TC007_VerifyBrokenLinksFromPLP extends baseClass
 	public void VerifyBrokenLinksFromPLP() throws InterruptedException, IOException
 	{
 		HomePage home=new HomePage(getDriver());
-		home.header.performSearch(p.getProperty("searchKeyword"));
-		
-		PLPpage plp=new PLPpage(getDriver());
+		PLPpage plp=home.header.performSearch(p.getProperty("searchKeyword"));
 		int count=plp.getTotalProductCount();
 		System.out.println(count+" Products count");
 		int brokenLinks = plp.verifyBrokenLinks();

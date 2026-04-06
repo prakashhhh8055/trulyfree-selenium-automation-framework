@@ -10,7 +10,7 @@ import pageObjects.HomePage;
 public class LoginAndLogoutTest extends baseClass
 {
 
-    @Test(groups={"regression","login"})
+    @Test(groups={"regression","login"},invocationCount = 5)
     public void verifyLoginAndLogout()
     {
         logger.info("********** Test Started : Verify Login And Logout **********");

@@ -13,8 +13,7 @@ public class TC009_VerifyPLPFreeShippingFeeFilter extends baseClass
 	public void VerifyPLPFreeShippingFeeFilter() throws InterruptedException
 	{
 		HomePage home=new HomePage(getDriver());
-		home.header.performSearch(p.getProperty("searchKeyword"));
-		PLPpage plp=new PLPpage(getDriver());
+		PLPpage plp=home.header.performSearch(p.getProperty("searchKeyword"));
 		Thread.sleep(5000);
 		plp.isPLPLoaded();
 		plp.enableFreeShippingFeeToggle();

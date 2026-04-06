@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC009_VerifyPLPFreeShippingFeeFilter">
+      <class name="testCases.TC011_VerifyGuestCartDefaultState">
         <methods>
           <include name="tearDown"/>
-          <include name="VerifyPLPFreeShippingFeeFilter"/>
           <include name="setup"/>
+          <include name="VerifyGuestCartDefaultState"/>
         </methods>
-      </class> <!-- testCases.TC009_VerifyPLPFreeShippingFeeFilter -->
+      </class> <!-- testCases.TC011_VerifyGuestCartDefaultState -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

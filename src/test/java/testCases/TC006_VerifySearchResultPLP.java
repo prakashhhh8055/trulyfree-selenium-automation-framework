@@ -22,21 +22,7 @@ public class TC006_VerifySearchResultPLP extends baseClass
 		sa.assertEquals(productCardCount, searchResultCount);
 		System.out.println("Search Result Count is - "+searchResultCount);
 		System.out.println("PLP Product Cards Count is - "+productCardCount);
-		//Thread.sleep(5000);
-		/*PLP.selectFilter(p.getProperty("SelectBrandFilterOption"));
-		Thread.sleep(5000);
-		int actualProductCount=PLP.getTotalProductCount();
-		int expectedProductCardCount=PLP.getSelectedFilterCount();
-		System.out.println("After Applying Filter - Actual Product Count is -> "+actualProductCount+" Expected Product Count is -> "+expectedProductCardCount);
-		sa.assertEquals(actualProductCount,expectedProductCardCount);
-		sa.assertTrue(PLP.isPLPLoaded());
-		//PLP.clickProductByName(p.getProperty("productTitle")); */
-		
-		//sa.assertEquals(PLP.verifyBrandFilter(p.getProperty("SelectBrandFilterOption")),true);
-		//PLP.ClearFilter();
-		//Thread.sleep(2000);
 		sa.assertAll();
-		
 		logger.info("---TC006 Test case Completed----");
 		
 	}

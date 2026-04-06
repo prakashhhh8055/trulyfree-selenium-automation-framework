@@ -1,11 +1,9 @@
 package testCases;
 
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -39,7 +37,7 @@ public class testingPractice2
 		
 		
 		//create New file. Read  No of columns, and Rows and Write into file
-		FileOutputStream file=new FileOutputStream(System.getProperty("user.dir")+"\\testData\\exampletest.xlsx");
+		/*FileOutputStream file=new FileOutputStream(System.getProperty("user.dir")+"\\testData\\exampletest.xlsx");
 		XSSFWorkbook workbook=new XSSFWorkbook();
 		XSSFSheet sheet=workbook.createSheet("contacts");
 		
@@ -63,7 +61,26 @@ public class testingPractice2
 		System.out.println("File Created");
 		workbook.write(file);
 		workbook.close();
-		file.close();
+		file.close(); */
+		
+		/*
+		String name="prakashgmalagi";
+		char l='p';
+		
+		for(char letter:name.toCharArray())
+		{
+		char next;
+		 if(letter==l)
+		 {
+			next= (letter=='z')?'a':(char) (letter+1);
+			System.out.println(name.replace(l,next));
+			break;
+				
+		 }
+		
+		} */
+		
+		
 		
 		
 		

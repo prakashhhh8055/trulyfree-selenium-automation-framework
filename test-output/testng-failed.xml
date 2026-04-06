@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC006_VerifySearchResultPLP">
+      <class name="testCases.TC011_VerifyGuestCartDefaultState">
         <methods>
-          <include name="VerifySearchResultPLP"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="VerifyGuestCartDefaultState"/>
         </methods>
-      </class> <!-- testCases.TC006_VerifySearchResultPLP -->
+      </class> <!-- testCases.TC011_VerifyGuestCartDefaultState -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
